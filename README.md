@@ -2,7 +2,7 @@
 
 一张面向学生与研究者的扩散语言模型开放阅读地图。
 
-在线阅读：[dllm-reading-map.pil4chatgpt.chatgpt.site](https://dllm-reading-map.pil4chatgpt.chatgpt.site)
+在线阅读：[dLLM Reading Map](https://zju-pil-lab.github.io/dllm-reading-map/)
 
 ![dLLM Reading Map](public/og.png)
 

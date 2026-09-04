@@ -2,6 +2,8 @@
 
 一张面向学生与研究者的扩散语言模型开放阅读地图。
 
+在线阅读：[dllm-reading-map.pil4chatgpt.chatgpt.site](https://dllm-reading-map.pil4chatgpt.chatgpt.site)
+
 ![dLLM Reading Map](public/og.png)
 
 项目以“方法类别”为主线、以时间为排序和筛选维度，避免把快速增长的领域压成一份难以使用的超长清单。首版完整收录 Sander Dieleman 2026 年文章 *Continuous diffusion language models* 的 81 条参考文献，并补充 19 篇离散扩散、大模型化、AR 转换与 2026 年最新工作，共 100 篇。

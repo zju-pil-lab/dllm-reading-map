@@ -26,7 +26,14 @@ export default function Home() {
           <a href="#library">论文库</a>
           <a href="#updates">如何更新</a>
         </div>
-        <a className="nav-github" href="#contribute">Open source ↗</a>
+        <a
+          className="nav-github"
+          href="https://github.com/zju-pil-lab/dllm-reading-map"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Open source ↗
+        </a>
       </nav>
 
       <section className="hero" id="top">
@@ -180,7 +187,10 @@ export default function Home() {
       <footer>
         <div><span className="wordmark-mark" />dLLM / READING MAP</div>
         <p>OPEN, CURATED, BUILT FOR LEARNING.</p>
-        <p>LAST VERIFIED · 2026.09.04</p>
+        <p>
+          <a href="https://github.com/zju-pil-lab/dllm-reading-map" target="_blank" rel="noreferrer">GITHUB ↗</a>
+          {' · '}LAST VERIFIED · 2026.09.04
+        </p>
       </footer>
     </main>
   );

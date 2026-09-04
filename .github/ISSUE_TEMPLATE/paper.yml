@@ -1,0 +1,62 @@
+name: Suggest a paper
+description: 推荐一篇新论文或资源
+title: "[Paper] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢推荐。请优先提供 arXiv / OpenReview / 会议等一手链接，并先搜索现有论文库避免重复。
+  - type: input
+    id: title
+    attributes:
+      label: Paper title
+      placeholder: Full paper title
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Primary URL
+      description: Canonical arXiv abstract, OpenReview, or proceedings URL
+      placeholder: https://arxiv.org/abs/...
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Suggested primary category
+      options:
+        - Discrete / masked diffusion
+        - Continuous token diffusion
+        - Simplex / manifold
+        - Hybrid AR–diffusion
+        - Flow maps / distillation
+        - Latent / hierarchical
+        - Systems / inference
+        - Evaluation / scaling
+        - Foundation / precursor / survey
+        - Unsure
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Why should it be included?
+      description: 用 1–3 句话说明主要贡献及它在阅读地图中的位置。请勿复制摘要。
+    validations:
+      required: true
+  - type: input
+    id: artifacts
+    attributes:
+      label: Official code / model / project (optional)
+      placeholder: https://github.com/... or https://huggingface.co/...
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched the current library and did not find a duplicate.
+          required: true
+        - label: The title and link above were checked against a primary source.
+          required: true

@@ -1,0 +1,2421 @@
+[
+  {
+    "id": "arxiv:1706.03762",
+    "sourceKey": "transformer",
+    "sourceIndex": 1,
+    "title": "Attention is All you Need",
+    "authors": [
+      "Vaswani",
+      "Shazeer",
+      "Parmar",
+      "Uszkoreit",
+      "Jones",
+      "Gomez",
+      "Kaiser",
+      "Polosukhin"
+    ],
+    "year": 2017,
+    "published": "2017",
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "category": "foundations",
+    "tags": [
+      "foundations"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "sander:teacherforcing",
+    "sourceKey": "teacherforcing",
+    "sourceIndex": 2,
+    "title": "A learning algorithm for continually running fully recurrent neural networks",
+    "authors": [
+      "Williams",
+      "Zipser"
+    ],
+    "year": 1989,
+    "published": "1989",
+    "venue": "Neural Computation",
+    "url": "https://doi.org/10.1162/neco.1989.1.2.270",
+    "category": "foundations",
+    "tags": [
+      "foundations"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "sander:gpt2",
+    "sourceKey": "gpt2",
+    "sourceIndex": 3,
+    "title": "Language Models are Unsupervised Multitask Learners",
+    "authors": [
+      "Radford",
+      "Wu",
+      "Child",
+      "Luan",
+      "Amodei",
+      "Sutskever"
+    ],
+    "year": 2019,
+    "published": "2019",
+    "venue": "Report",
+    "url": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+    "category": "foundations",
+    "tags": [
+      "foundations"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:1907.05600",
+    "sourceKey": "score",
+    "sourceIndex": 4,
+    "title": "Generative Modeling by Estimating Gradients of the Data Distribution",
+    "authors": [
+      "Song",
+      "Ermon"
+    ],
+    "year": 2019,
+    "published": "2019",
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/1907.05600",
+    "category": "foundations",
+    "tags": [
+      "foundations"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2006.09011",
+    "sourceKey": "improvedscore",
+    "sourceIndex": 5,
+    "title": "Improved Techniques for Training Score-Based Generative Models",
+    "authors": [
+      "Song",
+      "Ermon"
+    ],
+    "year": 2020,
+    "published": "2020",
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/2006.09011",
+    "category": "foundations",
+    "tags": [
+      "foundations"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2006.11239",
+    "sourceKey": "ddpm",
+    "sourceIndex": 6,
+    "title": "Denoising Diffusion Probabilistic Models",
+    "authors": [
+      "Ho",
+      "Jain",
+      "Abbeel"
+    ],
+    "year": 2020,
+    "published": "2020",
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/2006.11239",
+    "category": "foundations",
+    "tags": [
+      "foundations"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2102.05379",
+    "sourceKey": "multinomial",
+    "sourceIndex": 7,
+    "title": "Argmax Flows and Multinomial Diffusion: Learning Categorical Distributions",
+    "authors": [
+      "Hoogeboom",
+      "Nielsen",
+      "Jaini",
+      "Forré",
+      "Welling"
+    ],
+    "year": 2021,
+    "published": "2021",
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/2102.05379",
+    "category": "discrete",
+    "tags": [
+      "discrete"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2107.03006",
+    "sourceKey": "d3pm",
+    "sourceIndex": 8,
+    "title": "Structured Denoising Diffusion Models in Discrete State-Spaces",
+    "authors": [
+      "Austin",
+      "Johnson",
+      "Ho",
+      "Tarlow",
+      "van den Berg"
+    ],
+    "year": 2021,
+    "published": "2021",
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/2107.03006",
+    "category": "discrete",
+    "tags": [
+      "discrete"
+    ],
+    "tier": "essential",
+    "essentialOrder": 1,
+    "whyReadZh": "离散状态空间扩散的统一起点，建立 transition kernel 与 absorbing mask 的基本语言。",
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2112.06749",
+    "sourceKey": "sundae",
+    "sourceIndex": 9,
+    "title": "Step-unrolled Denoising Autoencoders for Text Generation",
+    "authors": [
+      "Savinov",
+      "Chung",
+      "Binkowski",
+      "Elsen",
+      "van den Oord"
+    ],
+    "year": 2022,
+    "published": "2022",
+    "venue": "ICLR",
+    "url": "https://arxiv.org/abs/2112.06749",
+    "category": "discrete",
+    "tags": [
+      "discrete"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2005.14165",
+    "sourceKey": "gpt3",
+    "sourceIndex": 10,
+    "title": "Language Models are Few-Shot Learners",
+    "authors": [
+      "Brown",
+      "Mann",
+      "Ryder",
+      "Subbiah",
+      "Kaplan",
+      "Dhariwal",
+      "Neelakantan",
+      "Shyam",
+      "Sastry",
+      "Askell",
+      "Agarwal",
+      "Herbert-Voss",
+      "Krueger",
+      "Henighan",
+      "Child",
+      "Ramesh",
+      "Ziegler",
+      "Wu",
+      "Winter",
+      "Hesse",
+      "Chen",
+      "Sigler",
+      "Litwin",
+      "Gray",
+      "Chess",
+      "Clark",
+      "Berner",
+      "McCandlish",
+      "Radford",
+      "Sutskever",
+      "Amodei"
+    ],
+    "year": 2020,
+    "published": "2020",
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/2005.14165",
+    "category": "foundations",
+    "tags": [
+      "foundations"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:1904.09324",
+    "sourceKey": "maskpredict",
+    "sourceIndex": 11,
+    "title": "Mask-Predict: Parallel Decoding of Conditional Masked Language Models",
+    "authors": [
+      "Ghazvininejad",
+      "Levy",
+      "Liu",
+      "Zettlemoyer"
+    ],
+    "year": 2019,
+    "published": "2019",
+    "venue": "EMNLP",
+    "url": "https://arxiv.org/abs/1904.09324",
+    "category": "precursors",
+    "tags": [
+      "precursors",
+      "masked"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:1906.08237",
+    "sourceKey": "xlnet",
+    "sourceIndex": 12,
+    "title": "XLNet: Generalized Autoregressive Pretraining for Language Understanding",
+    "authors": [
+      "Yang",
+      "Dai",
+      "Yang",
+      "Carbonell",
+      "Salakhutdinov",
+      "Le"
+    ],
+    "year": 2019,
+    "published": "2019",
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/1906.08237",
+    "category": "precursors",
+    "tags": [
+      "precursors",
+      "AR-hybrid"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:1711.02281",
+    "sourceKey": "nat",
+    "sourceIndex": 13,
+    "title": "Non-Autoregressive Neural Machine Translation",
+    "authors": [
+      "Gu",
+      "Bradbury",
+      "Xiong",
+      "Li",
+      "Socher"
+    ],
+    "year": 2018,
+    "published": "2018",
+    "venue": "ICLR",
+    "url": "https://arxiv.org/abs/1711.02281",
+    "category": "precursors",
+    "tags": [
+      "precursors",
+      "AR-hybrid"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:1802.06901",
+    "sourceKey": "iternat",
+    "sourceIndex": 14,
+    "title": "Deterministic Non-Autoregressive Neural Sequence Modeling by Iterative Refinement",
+    "authors": [
+      "Lee",
+      "Mansimov",
+      "Cho"
+    ],
+    "year": 2018,
+    "published": "2018",
+    "venue": "EMNLP",
+    "url": "https://arxiv.org/abs/1802.06901",
+    "category": "precursors",
+    "tags": [
+      "precursors",
+      "AR-hybrid"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2205.14217",
+    "sourceKey": "diffusionlm",
+    "sourceIndex": 15,
+    "title": "Diffusion-LM Improves Controllable Text Generation",
+    "authors": [
+      "Li",
+      "Thickstun",
+      "Gulrajani",
+      "Liang",
+      "Hashimoto"
+    ],
+    "year": 2022,
+    "published": "2022",
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/2205.14217",
+    "category": "continuous",
+    "tags": [
+      "continuous"
+    ],
+    "tier": "essential",
+    "essentialOrder": 2,
+    "whyReadZh": "第一波连续文本扩散的代表作，展示 embedding-space diffusion 的可控生成能力。",
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2210.08933",
+    "sourceKey": "diffuseq",
+    "sourceIndex": 16,
+    "title": "DiffuSeq: Sequence to Sequence Text Generation with Diffusion Models",
+    "authors": [
+      "Gong",
+      "Li",
+      "Feng",
+      "Wu",
+      "Kong"
+    ],
+    "year": 2023,
+    "published": "2023",
+    "venue": "ICLR",
+    "url": "https://arxiv.org/abs/2210.08933",
+    "category": "continuous",
+    "tags": [
+      "continuous"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2210.17432",
+    "sourceKey": "ssdlm",
+    "sourceIndex": 17,
+    "title": "SSD-LM: Semi-autoregressive Simplex-based Diffusion Language Model for Text Generation and Modular Control",
+    "authors": [
+      "Han",
+      "Kumar",
+      "Tsvetkov"
+    ],
+    "year": 2023,
+    "published": "2023",
+    "venue": "ACL",
+    "url": "https://arxiv.org/abs/2210.17432",
+    "category": "continuous",
+    "tags": [
+      "continuous",
+      "simplex",
+      "AR-hybrid"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2212.09412",
+    "sourceKey": "difformer",
+    "sourceIndex": 18,
+    "title": "Difformer: Empowering Diffusion Model on Embedding Space for Text Generation",
+    "authors": [
+      "Gao",
+      "Guo",
+      "Tan",
+      "Zhu",
+      "Zhang",
+      "Bian",
+      "Xu"
+    ],
+    "year": 2022,
+    "published": "2022",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2212.09412",
+    "category": "continuous",
+    "tags": [
+      "continuous",
+      "embedding"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2212.10325",
+    "sourceKey": "seqdiffuseq",
+    "sourceIndex": 19,
+    "title": "SeqDiffuSeq: Text Diffusion with Encoder-Decoder Transformers",
+    "authors": [
+      "Yuan",
+      "Yuan",
+      "Tan",
+      "Huang",
+      "Huang"
+    ],
+    "year": 2024,
+    "published": "2024",
+    "venue": "ACL",
+    "url": "https://arxiv.org/abs/2212.10325",
+    "category": "continuous",
+    "tags": [
+      "continuous"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2212.11685",
+    "sourceKey": "genie",
+    "sourceIndex": 20,
+    "title": "Text Generation with Diffusion Language Models: A Pre-training Approach with Continuous Paragraph Denoise",
+    "authors": [
+      "Lin",
+      "Gong",
+      "Shen",
+      "Wu",
+      "Fan",
+      "Lin",
+      "Duan",
+      "Chen"
+    ],
+    "year": 2023,
+    "published": "2023",
+    "venue": "ICML",
+    "url": "https://arxiv.org/abs/2212.11685",
+    "category": "continuous",
+    "tags": [
+      "continuous"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2212.09462",
+    "sourceKey": "ld4lg",
+    "sourceIndex": 21,
+    "title": "Latent Diffusion for Language Generation",
+    "authors": [
+      "Lovelace",
+      "Kishore",
+      "Wan",
+      "Shekhtman",
+      "Weinberger"
+    ],
+    "year": 2023,
+    "published": "2023",
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/2212.09462",
+    "category": "latent",
+    "tags": [
+      "latent"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2211.04236",
+    "sourceKey": "sed",
+    "sourceIndex": 22,
+    "title": "Self-conditioned Embedding Diffusion for Text Generation",
+    "authors": [
+      "Strudel",
+      "Tallec",
+      "Altché",
+      "Du",
+      "Ganin",
+      "Mensch",
+      "Grathwohl",
+      "Savinov",
+      "Dieleman",
+      "Sifre",
+      "Leblond"
+    ],
+    "year": 2022,
+    "published": "2022",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2211.04236",
+    "category": "continuous",
+    "tags": [
+      "continuous",
+      "self-conditioning",
+      "embedding"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": "理解 self-conditioning 为何几乎成为连续语言扩散的标配。",
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2211.15089",
+    "sourceKey": "cdcd",
+    "sourceIndex": 23,
+    "title": "Continuous diffusion for categorical data",
+    "authors": [
+      "Dieleman",
+      "Sartran",
+      "Roshannai",
+      "Savinov",
+      "Ganin",
+      "Richemond",
+      "Doucet",
+      "Strudel",
+      "Dyer",
+      "Durkan",
+      "Hawthorne",
+      "Leblond",
+      "Grathwohl",
+      "Adler"
+    ],
+    "year": 2022,
+    "published": "2022",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2211.15089",
+    "category": "continuous",
+    "tags": [
+      "continuous"
+    ],
+    "tier": "essential",
+    "essentialOrder": 3,
+    "whyReadZh": "把归一化 embedding、交叉熵目标与自适应噪声日程组织成一套清晰配方。",
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2508.10875",
+    "sourceKey": "survey",
+    "sourceIndex": 24,
+    "title": "A Survey on Diffusion Language Models",
+    "authors": [
+      "Li",
+      "Chen",
+      "Guo",
+      "Shen"
+    ],
+    "year": 2025,
+    "published": "2025",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2508.10875",
+    "category": "surveys",
+    "tags": [
+      "surveys"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2305.18619",
+    "sourceKey": "plaid",
+    "sourceIndex": 25,
+    "title": "Likelihood-Based Diffusion Language Models",
+    "authors": [
+      "Gulrajani",
+      "Hashimoto"
+    ],
+    "year": 2023,
+    "published": "2023",
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/2305.18619",
+    "category": "continuous",
+    "tags": [
+      "continuous"
+    ],
+    "tier": "essential",
+    "essentialOrder": 5,
+    "whyReadZh": "从似然与 scaling 的角度检验连续路线，也解释了它一度沉寂的原因。",
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2203.15556",
+    "sourceKey": "chinchilla",
+    "sourceIndex": 26,
+    "title": "Training Compute-Optimal Large Language Models",
+    "authors": [
+      "Hoffmann",
+      "Borgeaud",
+      "Mensch",
+      "Buchatskaya",
+      "Cai",
+      "Rutherford",
+      "de Las Casas",
+      "Hendricks",
+      "Welbl",
+      "Clark",
+      "Hennigan",
+      "Noland",
+      "Millican",
+      "van den Driessche",
+      "Damoc",
+      "Guy",
+      "Osindero",
+      "Simonyan",
+      "Elsen",
+      "Rae",
+      "Vinyals",
+      "Sifre"
+    ],
+    "year": 2022,
+    "published": "2022",
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/2203.15556",
+    "category": "foundations",
+    "tags": [
+      "foundations"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2302.13971",
+    "sourceKey": "llama",
+    "sourceIndex": 27,
+    "title": "LLaMA: Open and Efficient Foundation Language Models",
+    "authors": [
+      "Touvron",
+      "Lavril",
+      "Izacard",
+      "Martinet",
+      "Lauchaux",
+      "Lacroix",
+      "Rozière",
+      "Goyal",
+      "Hambro",
+      "Azhar",
+      "Rodriguez",
+      "Joulin",
+      "Grave",
+      "Lample"
+    ],
+    "year": 2023,
+    "published": "2023",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2302.13971",
+    "category": "foundations",
+    "tags": [
+      "foundations"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2208.04202",
+    "sourceKey": "analogbits",
+    "sourceIndex": 28,
+    "title": "Analog Bits: Generating Discrete Data using Diffusion Models with Self-Conditioning",
+    "authors": [
+      "Chen",
+      "Zhang",
+      "Hinton"
+    ],
+    "year": 2023,
+    "published": "2023",
+    "venue": "ICLR",
+    "url": "https://arxiv.org/abs/2208.04202",
+    "category": "continuous",
+    "tags": [
+      "continuous",
+      "self-conditioning",
+      "bitstream"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:1810.04805",
+    "sourceKey": "bert",
+    "sourceIndex": 29,
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "authors": [
+      "Devlin",
+      "Chang",
+      "Lee",
+      "Toutanova"
+    ],
+    "year": 2019,
+    "published": "2019",
+    "venue": "NAACL",
+    "url": "https://arxiv.org/abs/1810.04805",
+    "category": "foundations",
+    "tags": [
+      "foundations"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2605.18530",
+    "sourceKey": "replaid",
+    "sourceIndex": 30,
+    "title": "Continuous Diffusion Scales Competitively with Discrete Diffusion for Language",
+    "authors": [
+      "Yang",
+      "Guo",
+      "Zhang",
+      "Sahoo",
+      "Chen",
+      "Vahdat",
+      "Mardani",
+      "Thickstun"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2605.18530",
+    "category": "continuous",
+    "tags": [
+      "continuous",
+      "scaling"
+    ],
+    "tier": "essential",
+    "essentialOrder": 12,
+    "whyReadZh": "用现代训练与评测重新审视连续扩散的规模化结论。",
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:1312.6114",
+    "sourceKey": "vaekingma",
+    "sourceIndex": 31,
+    "title": "Auto-Encoding Variational Bayes",
+    "authors": [
+      "Kingma",
+      "Welling"
+    ],
+    "year": 2014,
+    "published": "2014",
+    "venue": "ICLR",
+    "url": "https://arxiv.org/abs/1312.6114",
+    "category": "foundations",
+    "tags": [
+      "foundations"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:1401.4082",
+    "sourceKey": "vaerezende",
+    "sourceIndex": 32,
+    "title": "Stochastic Backpropagation and Approximate Inference in Deep Generative Models",
+    "authors": [
+      "Rezende",
+      "Mohamed",
+      "Wierstra"
+    ],
+    "year": 2014,
+    "published": "2014",
+    "venue": "ICML",
+    "url": "https://arxiv.org/abs/1401.4082",
+    "category": "foundations",
+    "tags": [
+      "foundations"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2210.14784",
+    "sourceKey": "simplex",
+    "sourceIndex": 33,
+    "title": "Categorical SDEs with Simplex Diffusion",
+    "authors": [
+      "Richemond",
+      "Dieleman",
+      "Doucet"
+    ],
+    "year": 2023,
+    "published": "2023",
+    "venue": "ICML workshop on Sampling and Optimization in Discrete Space",
+    "url": "https://arxiv.org/abs/2210.14784",
+    "category": "simplex",
+    "tags": [
+      "simplex"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2305.10699",
+    "sourceKey": "ddsm",
+    "sourceIndex": 34,
+    "title": "Dirichlet Diffusion Score Model for Biological Sequence Generation",
+    "authors": [
+      "Avdeyev",
+      "Shi",
+      "Tan",
+      "Dudnyk",
+      "Zhou"
+    ],
+    "year": 2023,
+    "published": "2023",
+    "venue": "ICML",
+    "url": "https://arxiv.org/abs/2305.10699",
+    "category": "simplex",
+    "tags": [
+      "simplex"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2309.02530",
+    "sourceKey": "floto",
+    "sourceIndex": 35,
+    "title": "Diffusion on the Probability Simplex",
+    "authors": [
+      "Floto",
+      "Jonsson",
+      "Nica",
+      "Sanner",
+      "Zhu"
+    ],
+    "year": 2023,
+    "published": "2023",
+    "venue": "ICML",
+    "url": "https://arxiv.org/abs/2309.02530",
+    "category": "simplex",
+    "tags": [
+      "simplex"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2402.05841",
+    "sourceKey": "dirichletfm",
+    "sourceIndex": 36,
+    "title": "Dirichlet Flow Matching with Applications to DNA Sequence Design",
+    "authors": [
+      "Stark",
+      "Jing",
+      "Wang",
+      "Corso",
+      "Berger",
+      "Barzilay",
+      "Jaakkola"
+    ],
+    "year": 2024,
+    "published": "2024",
+    "venue": "ICML",
+    "url": "https://arxiv.org/abs/2402.05841",
+    "category": "simplex",
+    "tags": [
+      "simplex",
+      "flow-matching"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2107.00630",
+    "sourceKey": "vdm",
+    "sourceIndex": 37,
+    "title": "Variational Diffusion Models",
+    "authors": [
+      "Kingma",
+      "Salimans",
+      "Poole",
+      "Ho"
+    ],
+    "year": 2021,
+    "published": "2021",
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/2107.00630",
+    "category": "foundations",
+    "tags": [
+      "foundations"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2602.18647",
+    "sourceKey": "infonoise",
+    "sourceIndex": 38,
+    "title": "Noise Scheduling as Information-Guided Allocation in Diffusion Training",
+    "authors": [
+      "Raya",
+      "Nguyen",
+      "Batzolis",
+      "Takida",
+      "Stancevic",
+      "Murata",
+      "Lai",
+      "Mitsufuji",
+      "Ambrogioni"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "ICML workshop on Structured Probabilistic Inference & Generative Modelling",
+    "url": "https://arxiv.org/abs/2602.18647",
+    "category": "flow",
+    "tags": [
+      "flow"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2602.16813",
+    "sourceKey": "fmlm",
+    "sourceIndex": 39,
+    "title": "Flow Map Language Models: One-step Language Modeling via Continuous Denoising",
+    "authors": [
+      "Lee",
+      "Yoo",
+      "Agarwal",
+      "Shah",
+      "Huang",
+      "Raghunathan",
+      "Hong",
+      "Boffi",
+      "Kim"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2602.16813",
+    "category": "flow",
+    "tags": [
+      "flow",
+      "flow-map"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2011.13456",
+    "sourceKey": "sde",
+    "sourceIndex": 40,
+    "title": "Score-Based Generative Modeling through Stochastic Differential Equations",
+    "authors": [
+      "Song",
+      "Sohl-Dickstein",
+      "Kingma",
+      "Kumar",
+      "Ermon",
+      "Poole"
+    ],
+    "year": 2021,
+    "published": "2021",
+    "venue": "ICLR",
+    "url": "https://arxiv.org/abs/2011.13456",
+    "category": "foundations",
+    "tags": [
+      "foundations"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2212.11972",
+    "sourceKey": "rin",
+    "sourceIndex": 41,
+    "title": "Scalable Adaptive Compute for Iterative Generation",
+    "authors": [
+      "Jabri",
+      "Fleet",
+      "Chen"
+    ],
+    "year": 2023,
+    "published": "2023",
+    "venue": "ICML",
+    "url": "https://arxiv.org/abs/2212.11972",
+    "category": "foundations",
+    "tags": [
+      "foundations",
+      "scaling"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2607.00714",
+    "sourceKey": "fpf",
+    "sourceIndex": 42,
+    "title": "Self-conditioned Flow Map Language Models via Fixed-point Flows",
+    "authors": [
+      "Yoo",
+      "Kim",
+      "Eijkelboom",
+      "Lee",
+      "Boffi",
+      "Hong",
+      "Kim"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2607.00714",
+    "category": "flow",
+    "tags": [
+      "flow",
+      "flow-map",
+      "self-conditioning"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "sander:cir",
+    "sourceKey": "cir",
+    "sourceIndex": 43,
+    "title": "A theory of the term structure of interest rates",
+    "authors": [
+      "Cox",
+      "Ingersoll",
+      "Ross"
+    ],
+    "year": 1985,
+    "published": "1985",
+    "venue": "Econometrica",
+    "url": "https://www.jstor.org/stable/1911242",
+    "category": "foundations",
+    "tags": [
+      "foundations"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2210.02747",
+    "sourceKey": "flowmatching",
+    "sourceIndex": 44,
+    "title": "Flow Matching for Generative Modeling",
+    "authors": [
+      "Lipman",
+      "Chen",
+      "Ben-Hamu",
+      "Nickel",
+      "Le"
+    ],
+    "year": 2023,
+    "published": "2023",
+    "venue": "ICLR",
+    "url": "https://arxiv.org/abs/2210.02747",
+    "category": "foundations",
+    "tags": [
+      "foundations",
+      "flow-matching"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2406.07507",
+    "sourceKey": "fmm",
+    "sourceIndex": 45,
+    "title": "Flow map matching with stochastic interpolants: A mathematical framework for consistency models",
+    "authors": [
+      "Boffi",
+      "Albergo",
+      "Vanden-Eijnden"
+    ],
+    "year": 2025,
+    "published": "2025",
+    "venue": "Transactions on Machine Learning Research",
+    "url": "https://arxiv.org/abs/2406.07507",
+    "category": "flow",
+    "tags": [
+      "flow",
+      "flow-map"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2506.10892",
+    "sourceKey": "duo",
+    "sourceIndex": 46,
+    "title": "The Diffusion Duality",
+    "authors": [
+      "Sahoo",
+      "Deschenaux",
+      "Gokaslan",
+      "Wang",
+      "Chiu",
+      "Kuleshov"
+    ],
+    "year": 2025,
+    "published": "2025",
+    "venue": "ICML",
+    "url": "https://arxiv.org/abs/2506.10892",
+    "category": "hybrid",
+    "tags": [
+      "hybrid"
+    ],
+    "tier": "essential",
+    "essentialOrder": 9,
+    "whyReadZh": "连接高斯连续扩散与 uniform-state 离散扩散，是理解混合方法的重要桥梁。",
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2303.01469",
+    "sourceKey": "cm",
+    "sourceIndex": 47,
+    "title": "Consistency Models",
+    "authors": [
+      "Song",
+      "Dhariwal",
+      "Chen",
+      "Sutskever"
+    ],
+    "year": 2023,
+    "published": "2023",
+    "venue": "ICML",
+    "url": "https://arxiv.org/abs/2303.01469",
+    "category": "foundations",
+    "tags": [
+      "foundations"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2510.01329",
+    "sourceKey": "cadd",
+    "sourceIndex": 48,
+    "title": "Continuously Augmented Discrete Diffusion model for Categorical Generative Modeling",
+    "authors": [
+      "Zheng",
+      "Gong",
+      "Zhang",
+      "Chen",
+      "Gu",
+      "Zhou",
+      "Jaitly",
+      "Zhang"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "ICLR",
+    "url": "https://arxiv.org/abs/2510.01329",
+    "category": "hybrid",
+    "tags": [
+      "hybrid"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2510.03206",
+    "sourceKey": "ccdd",
+    "sourceIndex": 49,
+    "title": "Coevolutionary Continuous Discrete Diffusion: Make Your Diffusion Language Model a Latent Reasoner",
+    "authors": [
+      "Zhou",
+      "Yang",
+      "Hu",
+      "Wang",
+      "Zhang",
+      "Zhang",
+      "Mackey",
+      "Jaakkola",
+      "Bates",
+      "Zhang"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "ICML",
+    "url": "https://arxiv.org/abs/2510.03206",
+    "category": "hybrid",
+    "tags": [
+      "hybrid",
+      "latent",
+      "reasoning"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2510.22510",
+    "sourceKey": "candi",
+    "sourceIndex": 50,
+    "title": "CANDI: Hybrid Discrete-Continuous Diffusion Models",
+    "authors": [
+      "Pynadath",
+      "Shi",
+      "Zhang"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "ICML",
+    "url": "https://arxiv.org/abs/2510.22510",
+    "category": "hybrid",
+    "tags": [
+      "hybrid"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2505.18825",
+    "sourceKey": "selfdist",
+    "sourceIndex": 51,
+    "title": "How to build a consistency model: Learning flow maps via self-distillation",
+    "authors": [
+      "Boffi",
+      "Albergo",
+      "Vanden-Eijnden"
+    ],
+    "year": 2025,
+    "published": "2025",
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/2505.18825",
+    "category": "flow",
+    "tags": [
+      "flow",
+      "flow-map",
+      "distillation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2602.12233",
+    "sourceKey": "cfm",
+    "sourceIndex": 52,
+    "title": "Categorical Flow Maps",
+    "authors": [
+      "Roos",
+      "Davis",
+      "Eijkelboom",
+      "Bronstein",
+      "Welling",
+      "Ceylan",
+      "Ambrogioni",
+      "van de Meent"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2602.12233",
+    "category": "flow",
+    "tags": [
+      "flow",
+      "flow-map"
+    ],
+    "tier": "essential",
+    "essentialOrder": 10,
+    "whyReadZh": "把 flow maps 推到 categorical setting，理解一步或少步生成的关键入口。",
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2604.09784",
+    "sourceKey": "dfm",
+    "sourceIndex": 53,
+    "title": "Discrete Flow Maps",
+    "authors": [
+      "Potaptchik",
+      "Yim",
+      "Saravanan",
+      "Holderrieth",
+      "Vanden-Eijnden",
+      "Albergo"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2604.09784",
+    "category": "flow",
+    "tags": [
+      "flow",
+      "flow-map"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2604.11748",
+    "sourceKey": "langflow",
+    "sourceIndex": 54,
+    "title": "LangFlow: Continuous Diffusion Rivals Discrete in Language Modeling",
+    "authors": [
+      "Chen",
+      "Liang",
+      "Sui",
+      "Guo",
+      "Cheng",
+      "You",
+      "Liu"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2604.11748",
+    "category": "continuous",
+    "tags": [
+      "continuous"
+    ],
+    "tier": "essential",
+    "essentialOrder": 11,
+    "whyReadZh": "2026 年连续路线回归的代表性工作，系统比较连续与离散建模。",
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2605.05629",
+    "sourceKey": "sf",
+    "sourceIndex": 55,
+    "title": "Spherical Flows for Sampling Categorical Data",
+    "authors": [
+      "Chemseddine",
+      "Kornhardt",
+      "Steidl"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2605.05629",
+    "category": "simplex",
+    "tags": [
+      "simplex"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2605.11125",
+    "sourceKey": "hsf",
+    "sourceIndex": 56,
+    "title": "Language Modelling with Hyperspherical Flows",
+    "authors": [
+      "Deschenaux",
+      "Gulcehre"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2605.11125",
+    "category": "simplex",
+    "tags": [
+      "simplex"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2605.07933",
+    "sourceKey": "ldlm",
+    "sourceIndex": 57,
+    "title": "How to Train Your Latent Diffusion Language Model Jointly With the Latent Space",
+    "authors": [
+      "Meschaninov",
+      "Shabalin",
+      "Chimbulatov",
+      "Gushchin",
+      "Koziev",
+      "Korotin",
+      "Vetrov"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2605.07933",
+    "category": "latent",
+    "tags": [
+      "latent"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2605.10938",
+    "sourceKey": "elf",
+    "sourceIndex": 58,
+    "title": "ELF: Embedded Language Flows",
+    "authors": [
+      "Hu",
+      "Qiu",
+      "Lu",
+      "Zhao",
+      "Li",
+      "Kim",
+      "Andreas",
+      "He"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2605.10938",
+    "category": "latent",
+    "tags": [
+      "latent"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2605.07013",
+    "sourceKey": "cobit",
+    "sourceIndex": 59,
+    "title": "CoBit: Language Modeling with Bitstream Diffusion",
+    "authors": [
+      "Batzolis",
+      "Girolami",
+      "Ambrogioni"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2605.07013",
+    "category": "continuous",
+    "tags": [
+      "continuous",
+      "bitstream"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2605.07820",
+    "sourceKey": "scalingcfms",
+    "sourceIndex": 60,
+    "title": "Scaling Categorical Flow Maps",
+    "authors": [
+      "Davis",
+      "Filippova",
+      "Ablin",
+      "Turrisi",
+      "Shidani",
+      "Cuturi",
+      "Béthune"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2605.07820",
+    "category": "flow",
+    "tags": [
+      "flow",
+      "flow-map",
+      "scaling"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2407.01392",
+    "sourceKey": "diffusionforcing",
+    "sourceIndex": 61,
+    "title": "Diffusion Forcing: Next-token Prediction Meets Full-Sequence Diffusion",
+    "authors": [
+      "Chen",
+      "Monso",
+      "Du",
+      "Simchowitz",
+      "Tedrake",
+      "Sitzmann"
+    ],
+    "year": 2024,
+    "published": "2024",
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/2407.01392",
+    "category": "multimodal",
+    "tags": [
+      "multimodal"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2408.11039",
+    "sourceKey": "transfusion",
+    "sourceIndex": 62,
+    "title": "Transfusion: Predict the Next Token and Diffuse Images with One Multi-Modal Model",
+    "authors": [
+      "Zhou",
+      "Yu",
+      "Babu",
+      "Tirumala",
+      "Yasunaga",
+      "Shamis",
+      "Kahn",
+      "Ma",
+      "Zettlemoyer",
+      "Levy"
+    ],
+    "year": 2025,
+    "published": "2025",
+    "venue": "ICLR",
+    "url": "https://arxiv.org/abs/2408.11039",
+    "category": "multimodal",
+    "tags": [
+      "multimodal"
+    ],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2608.00146",
+    "sourceKey": "diffusiongemma",
+    "sourceIndex": 63,
+    "title": "DiffusionGemma Technical Report",
+    "authors": [
+      "DiffusionGemma team"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2608.00146",
+    "category": "discrete",
+    "tags": [
+      "discrete"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2607.05722",
+    "sourceKey": "nemotron",
+    "sourceIndex": 64,
+    "title": "Nemotron-Labs-Diffusion: A Tri-Mode Language Model Unifying Autoregressive, Diffusion, and Self-Speculation Decoding",
+    "authors": [
+      "Fu",
+      "Whalen",
+      "Garg",
+      "Wu",
+      "Khadkevich",
+      "Oswald",
+      "Xie",
+      "Egert",
+      "Sreenivas",
+      "Diao",
+      "Yu",
+      "Yu",
+      "Chen",
+      "Norouzi",
+      "Liu",
+      "Lan",
+      "Zhu",
+      "Wang",
+      "Jiang",
+      "Mardani",
+      "Maghoumi",
+      "Han",
+      "Jukić",
+      "Tajbakhsh",
+      "Kautz",
+      "Molchanov"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2607.05722",
+    "category": "systems",
+    "tags": [
+      "systems",
+      "AR-hybrid"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2603.20155",
+    "sourceKey": "dmmd",
+    "sourceIndex": 65,
+    "title": "Beyond Single Tokens: Distilling Discrete Diffusion Models via Discrete MMD",
+    "authors": [
+      "Hoogeboom",
+      "Ruhe",
+      "Heek",
+      "Mensink",
+      "Salimans"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2603.20155",
+    "category": "flow",
+    "tags": [
+      "flow",
+      "distillation"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2602.19066",
+    "sourceKey": "idlm",
+    "sourceIndex": 66,
+    "title": "IDLM: Inverse-distilled Diffusion Language Models",
+    "authors": [
+      "Li",
+      "Gushchin",
+      "Abulkhanov",
+      "Moulines",
+      "Osedelets",
+      "Panov",
+      "Korotin"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "ICML",
+    "url": "https://arxiv.org/abs/2602.19066",
+    "category": "flow",
+    "tags": [
+      "flow",
+      "distillation"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2602.06036",
+    "sourceKey": "dflash",
+    "sourceIndex": 67,
+    "title": "DFlash: Block Diffusion for Flash Speculative Decoding",
+    "authors": [
+      "Chen",
+      "Liang",
+      "Liu"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "ICML",
+    "url": "https://arxiv.org/abs/2602.06036",
+    "category": "systems",
+    "tags": [
+      "systems",
+      "speculative-decoding"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2605.14305",
+    "sourceKey": "fefdllm",
+    "sourceIndex": 68,
+    "title": "Factorization-Error-Free Discrete Diffusion Language Model via Speculative Decoding",
+    "authors": [
+      "Fang",
+      "Li",
+      "Yuan",
+      "Yu"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2605.14305",
+    "category": "systems",
+    "tags": [
+      "systems",
+      "speculative-decoding"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2604.08302",
+    "sourceKey": "dmax",
+    "sourceIndex": 69,
+    "title": "DMax: Aggressive Parallel Decoding for dLLMs",
+    "authors": [
+      "Chen",
+      "Fang",
+      "Ma",
+      "Yu",
+      "Wang"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2604.08302",
+    "category": "systems",
+    "tags": [
+      "systems"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2607.10951",
+    "sourceKey": "sticky",
+    "sourceIndex": 70,
+    "title": "Sticky Jump Diffusions: A Unifying View of Masked, Continuous, and Hybrid Diffusion",
+    "authors": [
+      "Jutras-Dubé",
+      "Pynadath",
+      "Lu",
+      "Gao",
+      "Zhang"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2607.10951",
+    "category": "hybrid",
+    "tags": [
+      "hybrid",
+      "masked"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2606.24773",
+    "sourceKey": "posterior",
+    "sourceIndex": 71,
+    "title": "Posterior Refinement: Fast Language Generation via Any-Order Flow Maps",
+    "authors": [
+      "Agarwal",
+      "Shah",
+      "Lee",
+      "Yoo",
+      "Huang",
+      "Hong",
+      "Raghunathan",
+      "Kim",
+      "Boffi"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2606.24773",
+    "category": "hybrid",
+    "tags": [
+      "hybrid",
+      "flow-map"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2507.15857",
+    "sourceKey": "dataconstrained",
+    "sourceIndex": 72,
+    "title": "Diffusion Beats Autoregressive in Data-Constrained Settings",
+    "authors": [
+      "Prabhudesai",
+      "Wu",
+      "Zadeh",
+      "Fragkiadaki",
+      "Pathak"
+    ],
+    "year": 2025,
+    "published": "2025",
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/2507.15857",
+    "category": "evaluation",
+    "tags": [
+      "evaluation",
+      "AR-hybrid"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2606.08417",
+    "sourceKey": "genppl",
+    "sourceIndex": 73,
+    "title": "Hacking Generative Perplexity: Why Unconditional Text Evaluation Needs Distributional Metrics",
+    "authors": [
+      "Franca",
+      "Tong"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2606.08417",
+    "category": "evaluation",
+    "tags": [
+      "evaluation"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2102.01454",
+    "sourceKey": "mauve",
+    "sourceIndex": 74,
+    "title": "MAUVE: Measuring the Gap Between Neural Text and Human Text using Divergence Frontiers",
+    "authors": [
+      "Pillutla",
+      "Swayamdipta",
+      "Zellers",
+      "Thickstun",
+      "Welleck",
+      "Choi",
+      "Harchaoui"
+    ],
+    "year": 2021,
+    "published": "2021",
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/2102.01454",
+    "category": "evaluation",
+    "tags": [
+      "evaluation"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2203.11370",
+    "sourceKey": "timecontrol",
+    "sourceIndex": 75,
+    "title": "Language modeling via stochastic processes",
+    "authors": [
+      "Wang",
+      "Durmus",
+      "Goodman",
+      "Hashimoto"
+    ],
+    "year": 2022,
+    "published": "2022",
+    "venue": "ICLR",
+    "url": "https://arxiv.org/abs/2203.11370",
+    "category": "latent",
+    "tags": [
+      "latent"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2306.02531",
+    "sourceKey": "planner",
+    "sourceIndex": 76,
+    "title": "PLANNER: Generating Diversified Paragraph via Latent Language Diffusion Model",
+    "authors": [
+      "Zhang",
+      "Gu",
+      "Wu",
+      "Zhai",
+      "Susskind",
+      "Jaitly"
+    ],
+    "year": 2023,
+    "published": "2023",
+    "venue": "NeurIPS",
+    "url": "https://arxiv.org/abs/2306.02531",
+    "category": "latent",
+    "tags": [
+      "latent"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2412.08821",
+    "sourceKey": "lcm",
+    "sourceIndex": 77,
+    "title": "Large Concept Models: Language Modeling in a Sentence Representation Space",
+    "authors": [
+      "Barrault",
+      "Duquenne",
+      "Elbayad",
+      "Kozhevnikov",
+      "Alastruey",
+      "Andrews",
+      "Coria",
+      "Couairon",
+      "Costa-jussà",
+      "Dale",
+      "Elsahar",
+      "Heffernan",
+      "Janeiro",
+      "Tran",
+      "Ropers",
+      "Sánchez",
+      "San Roman",
+      "Mourachko",
+      "Saleem",
+      "Schwenk"
+    ],
+    "year": 2024,
+    "published": "2024",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2412.08821",
+    "category": "latent",
+    "tags": [
+      "latent"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2412.11333",
+    "sourceKey": "sld",
+    "sourceIndex": 78,
+    "title": "Segment-Level Diffusion: A Framework for Controllable Long-Form Generation with Diffusion Language Models",
+    "authors": [
+      "Zhu",
+      "Karadzhov",
+      "Whitehouse",
+      "Vlachos"
+    ],
+    "year": 2025,
+    "published": "2025",
+    "venue": "ACL",
+    "url": "https://arxiv.org/abs/2412.11333",
+    "category": "latent",
+    "tags": [
+      "latent"
+    ],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2510.04573",
+    "sourceKey": "ladir",
+    "sourceIndex": 79,
+    "title": "LaDiR: Latent Diffusion Enhances LLMs for Text Reasoning",
+    "authors": [
+      "Kang",
+      "Zhang",
+      "Kuang",
+      "Majamaki",
+      "Jaitly",
+      "Ma",
+      "Qin"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "ICLR",
+    "url": "https://arxiv.org/abs/2510.04573",
+    "category": "latent",
+    "tags": [
+      "latent",
+      "reasoning"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "sander:ltf",
+    "sourceKey": "ltf",
+    "sourceIndex": 80,
+    "title": "Latent Thought Flows with Text Compression",
+    "authors": [
+      "Prabhudesai",
+      "Geng"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "Blog",
+    "url": "https://latent-thought-flows.vercel.app/",
+    "category": "latent",
+    "tags": [
+      "latent"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  },
+  {
+    "id": "arxiv:2608.02602",
+    "sourceKey": "auroralm",
+    "sourceIndex": 81,
+    "title": "AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling",
+    "authors": [
+      "Liang",
+      "Liao",
+      "Cao",
+      "Wei",
+      "Li",
+      "Tan",
+      "Zhang",
+      "Cui",
+      "Yang",
+      "Guo",
+      "Yang",
+      "Yang",
+      "Shan",
+      "Liu",
+      "Si"
+    ],
+    "year": 2026,
+    "published": "2026",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2608.02602",
+    "category": "latent",
+    "tags": [
+      "latent"
+    ],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": null,
+    "sourceCollections": [
+      "sander-2026"
+    ],
+    "lastVerified": "2026-09-04"
+  }
+]

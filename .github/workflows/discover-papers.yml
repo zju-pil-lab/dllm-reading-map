@@ -1,0 +1,26 @@
+name: Discover paper candidates
+
+on:
+  schedule:
+    - cron: '17 2 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Query arXiv
+        id: discover
+        run: python3 scripts/discover_arxiv.py --output candidates.md --github-output
+      - name: Open review issue
+        if: steps.discover.outputs.count != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          issue_title="Paper candidates · $(date -u +%Y-%m-%d)"
+          gh issue create --title "$issue_title" --body-file candidates.md

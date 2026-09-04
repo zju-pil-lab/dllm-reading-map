@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 const siteUrl = new URL(
-  process.env.NEXT_PUBLIC_SITE_URL ?? 'https://dllm-reading-map.pil4chatgpt.chatgpt.site/',
+  process.env.NEXT_PUBLIC_SITE_URL ?? 'https://zju-pil-lab.github.io/dllm-reading-map/',
 );
 const canonicalUrl = siteUrl.toString();
 const iconUrl = new URL('favicon.png', siteUrl);

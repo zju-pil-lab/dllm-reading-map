@@ -76,7 +76,7 @@ export default function Home() {
       <section className="section path-section" id="start">
         <div className="section-heading sticky-heading">
           <p className="eyebrow"><span /> START HERE</p>
-          <h2>一条可完成的<br />阅读路径。</h2>
+          <h2>核心论文<br />阅读路径</h2>
           <p>先读 12 篇主干论文，理解范式怎样从离散扩散走向大模型、混合架构与 flow maps，再按自己的问题深入。</p>
           <div className="scope-note">
             <span>SCOPE</span>
@@ -124,7 +124,7 @@ export default function Home() {
       <section className="section map-section" id="map">
         <div className="section-heading">
           <p className="eyebrow"><span /> BROWSE BY FAMILY</p>
-          <h2>类别是主地图，<br />时间是过滤器。</h2>
+          <h2>方法分类与<br />时间索引</h2>
           <p>主类别只回答一个稳定问题：生成过程主要在哪种状态空间运行？训练阶段、目标函数、能力与系统技巧则作为标签。</p>
         </div>
         <div className="family-grid">
@@ -157,7 +157,7 @@ export default function Home() {
       <section className="update-section" id="updates">
         <div className="update-lead">
           <p className="eyebrow"><span /> LIVING COLLECTION</p>
-          <h2>让更新成为流程，<br />而不是记忆。</h2>
+          <h2>论文收录与<br />更新机制</h2>
         </div>
         <div className="update-steps">
           <article><span>01 / DISCOVER</span><h3>每周发现</h3><p>按 dLLM、masked diffusion、flow map、block diffusion 等关键词检索 arXiv 候选。</p></article>
@@ -169,7 +169,7 @@ export default function Home() {
       <section className="source-section" id="contribute">
         <div>
           <p className="eyebrow"><span /> SOURCES & CREDIT</p>
-          <h2>开放，但不失去出处。</h2>
+          <h2>资料来源与引用说明</h2>
         </div>
         <div className="source-list">
           <a href="https://sander.ai/2026/08/24/continuous-dlms.html?v=1" target="_blank" rel="noreferrer">

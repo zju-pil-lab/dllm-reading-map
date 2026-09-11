@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import type { Paper, PaperTier } from '@/lib/papers';
 import { categories, categoryById, formatAuthors } from '@/lib/papers';
 
@@ -22,6 +22,14 @@ const sortLabels: Record<SortMode, string> = {
   source: '博客顺序',
 };
 
+const categoryIds = new Set(categories.map((item) => item.id));
+
+function categoryFromLocation() {
+  if (typeof window === 'undefined') return 'all';
+  const requested = new URLSearchParams(window.location.search).get('category');
+  return requested && categoryIds.has(requested) ? requested : 'all';
+}
+
 function searchableText(paper: Paper) {
   return [paper.title, paper.authors.join(' '), paper.venue, paper.category, ...paper.tags]
     .join(' ')
@@ -34,6 +42,17 @@ export default function PaperExplorer({ papers }: { papers: Paper[] }) {
   const [tier, setTier] = useState<TierFilter>('all');
   const [sort, setSort] = useState<SortMode>('latest');
   const [visible, setVisible] = useState(14);
+
+  useEffect(() => {
+    function syncCategoryFromLocation() {
+      setCategory(categoryFromLocation());
+      setVisible(14);
+    }
+
+    syncCategoryFromLocation();
+    window.addEventListener('popstate', syncCategoryFromLocation);
+    return () => window.removeEventListener('popstate', syncCategoryFromLocation);
+  }, []);
 
   const filteredPapers = useMemo(() => {
     const normalizedQuery = query.trim().toLocaleLowerCase();
@@ -59,11 +78,20 @@ export default function PaperExplorer({ papers }: { papers: Paper[] }) {
   const shownPapers = filteredPapers.slice(0, visible);
   const hasFilters = query || category !== 'all' || tier !== 'all';
 
+  function selectCategory(nextCategory: string) {
+    setCategory(nextCategory);
+    setVisible(14);
+
+    const url = new URL(window.location.href);
+    if (nextCategory === 'all') url.searchParams.delete('category');
+    else url.searchParams.set('category', nextCategory);
+    window.history.replaceState(null, '', `${url.pathname}${url.search}${url.hash}`);
+  }
+
   function clearFilters() {
     setQuery('');
-    setCategory('all');
+    selectCategory('all');
     setTier('all');
-    setVisible(14);
   }
 
   return (
@@ -102,13 +130,13 @@ export default function PaperExplorer({ papers }: { papers: Paper[] }) {
       </div>
 
       <div className="category-filter" aria-label="按类别筛选">
-        <button className={category === 'all' ? 'active' : ''} onClick={() => { setCategory('all'); setVisible(14); }} type="button">
+        <button className={category === 'all' ? 'active' : ''} onClick={() => selectCategory('all')} type="button">
           全部 <span>{papers.length}</span>
         </button>
         {categories.map((item) => {
           const count = papers.filter((paper) => paper.category === item.id).length;
           return (
-            <button className={category === item.id ? 'active' : ''} onClick={() => { setCategory(item.id); setVisible(14); }} type="button" key={item.id}>
+            <button className={category === item.id ? 'active' : ''} onClick={() => selectCategory(item.id)} type="button" key={item.id}>
               {item.zh} <span>{count}</span>
             </button>
           );

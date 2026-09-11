@@ -131,7 +131,11 @@ export default function Home() {
           {coreCategories.map((category, index) => {
             const count = papers.filter((paper) => paper.category === category.id).length;
             return (
-              <a className={`family-card${category.id === 'agents' ? ' family-card-wide' : ''}`} href="#library" key={category.id}>
+              <a
+                className={`family-card${category.id === 'agents' ? ' family-card-wide' : ''}`}
+                href={`?category=${category.id}#library`}
+                key={category.id}
+              >
                 <span className="family-index">{String(index + 1).padStart(2, '0')}</span>
                 <span className="family-label">{category.label}</span>
                 <h3>{category.zh}</h3>

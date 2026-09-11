@@ -11,7 +11,7 @@ const socialImageUrl = new URL('og.png', siteUrl);
 export const metadata: Metadata = {
   metadataBase: siteUrl,
   title: 'dLLM Reading Map · 扩散语言模型阅读地图',
-  description: '100 篇扩散语言模型论文：12 篇必读路径、方法分类、时间筛选与持续更新。',
+  description: '105 篇扩散语言模型论文：12 篇必读路径、方法分类、智能体方向、时间筛选与持续更新。',
   alternates: { canonical: canonicalUrl },
   icons: { icon: iconUrl },
   openGraph: {

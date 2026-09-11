@@ -9,7 +9,7 @@ const papers = [...sander, ...extras];
 
 const allowedCategories = new Set([
   'foundations', 'precursors', 'discrete', 'continuous', 'simplex', 'hybrid',
-  'flow', 'latent', 'systems', 'evaluation', 'multimodal', 'surveys',
+  'flow', 'latent', 'systems', 'agents', 'evaluation', 'multimodal', 'surveys',
 ]);
 const allowedTiers = new Set(['essential', 'recommended', 'frontier', 'context']);
 const required = ['id', 'title', 'authors', 'year', 'published', 'venue', 'url', 'category', 'tags', 'tier', 'sourceCollections', 'lastVerified'];

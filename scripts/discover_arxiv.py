@@ -17,7 +17,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 ARXIV_API = "https://export.arxiv.org/api/query"
 ATOM = {"atom": "http://www.w3.org/2005/Atom"}
-QUERY = 'all:"diffusion language model" OR all:"masked diffusion language" OR all:"flow map language model" OR all:"diffusion LLM"'
+QUERY = 'all:"diffusion language model" OR all:"masked diffusion language" OR all:"flow map language model" OR all:"diffusion LLM" OR all:"agentic dLLM"'
 
 
 def known_arxiv_ids() -> set[str]:

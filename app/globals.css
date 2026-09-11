@@ -248,6 +248,7 @@ select:focus-visible {
 .map-section { padding-bottom: clamp(110px, 13vw, 190px); }
 .family-grid { border-left: 1px solid var(--line); border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(2, 1fr); }
 .family-card { border-bottom: 1px solid var(--line); border-right: 1px solid var(--line); min-height: 280px; padding: 22px; position: relative; transition: background .2s ease; }
+.family-card-wide { grid-column: 1 / -1; min-height: 245px; }
 .family-card:hover { background: var(--white); }
 .family-index, .family-label { color: var(--muted); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 9px; letter-spacing: .1em; }
 .family-label { float: right; text-transform: uppercase; }
@@ -358,6 +359,7 @@ footer p:last-child { justify-self: end; }
   .latest-intro, .catalog-heading { align-items: start; grid-template-columns: 1fr; }
   .latest-intro > p:last-child, .catalog-heading > p { justify-self: start; }
   .latest-grid, .family-grid { grid-template-columns: 1fr; }
+  .family-card-wide { grid-column: auto; }
   .latest-card { min-height: 280px; }
   .family-card { min-height: 245px; }
   .explorer-tools { grid-template-columns: repeat(2, 1fr); }

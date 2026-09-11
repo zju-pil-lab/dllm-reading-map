@@ -8,7 +8,7 @@ import {
   papers,
 } from '@/lib/papers';
 
-const coreCategoryIds = ['discrete', 'continuous', 'hybrid', 'flow', 'latent', 'systems'];
+const coreCategoryIds = ['discrete', 'continuous', 'hybrid', 'flow', 'latent', 'systems', 'agents'];
 
 export default function Home() {
   const coreCategories = coreCategoryIds.map((id) => categoryById[id]);
@@ -70,7 +70,7 @@ export default function Home() {
         <div><strong>{papers.length}</strong><span>篇精选论文<br />单一数据源</span></div>
         <div><strong>81/81</strong><span>Sander 博客<br />参考文献已收录</span></div>
         <div><strong>{categories.length}</strong><span>研究方向<br />交叉索引</span></div>
-        <div className="stats-note"><span className="status-dot" />VERIFIED<br />2026.09.04</div>
+        <div className="stats-note"><span className="status-dot" />VERIFIED<br />2026.09.12</div>
       </section>
 
       <section className="section path-section" id="start">
@@ -125,13 +125,13 @@ export default function Home() {
         <div className="section-heading">
           <p className="eyebrow"><span /> BROWSE BY FAMILY</p>
           <h2>方法分类与<br />时间索引</h2>
-          <p>主类别只回答一个稳定问题：生成过程主要在哪种状态空间运行？训练阶段、目标函数、能力与系统技巧则作为标签。</p>
+          <p>方法类别刻画生成范式，研究方向覆盖系统、评测与智能体等关键问题；训练目标和具体能力通过标签交叉索引。</p>
         </div>
         <div className="family-grid">
           {coreCategories.map((category, index) => {
             const count = papers.filter((paper) => paper.category === category.id).length;
             return (
-              <a className="family-card" href={`#library`} key={category.id}>
+              <a className={`family-card${category.id === 'agents' ? ' family-card-wide' : ''}`} href="#library" key={category.id}>
                 <span className="family-index">{String(index + 1).padStart(2, '0')}</span>
                 <span className="family-label">{category.label}</span>
                 <h3>{category.zh}</h3>
@@ -160,7 +160,7 @@ export default function Home() {
           <h2>论文收录与<br />更新机制</h2>
         </div>
         <div className="update-steps">
-          <article><span>01 / DISCOVER</span><h3>每周发现</h3><p>按 dLLM、masked diffusion、flow map、block diffusion 等关键词检索 arXiv 候选。</p></article>
+          <article><span>01 / DISCOVER</span><h3>每周发现</h3><p>按 dLLM、masked diffusion、flow map、agentic dLLM、tool use 等关键词检索 arXiv 候选。</p></article>
           <article><span>02 / REVIEW</span><h3>人工审核</h3><p>自动化只创建候选清单；相关性、主分类和“为什么值得读”由实验室成员确认。</p></article>
           <article><span>03 / PUBLISH</span><h3>合并即发布</h3><p>数据校验、去重与构建检查通过后，网页自动更新；用 first-posted 日期维护 Latest。</p></article>
         </div>
@@ -189,7 +189,7 @@ export default function Home() {
         <p>OPEN, CURATED, BUILT FOR LEARNING.</p>
         <p>
           <a href="https://github.com/zju-pil-lab/dllm-reading-map" target="_blank" rel="noreferrer">GITHUB ↗</a>
-          {' · '}LAST VERIFIED · 2026.09.04
+          {' · '}LAST VERIFIED · 2026.09.12
         </p>
       </footer>
     </main>

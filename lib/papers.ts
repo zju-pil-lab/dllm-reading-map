@@ -95,6 +95,13 @@ export const categories: Category[] = [
     formula: 'latency ↓ throughput ↑',
   },
   {
+    id: 'agents',
+    label: 'Agentic dLLMs',
+    zh: '智能体与工具使用',
+    description: '研究 dLLM 作为智能体骨干、规划器或世界模型时的多轮决策、工具调用与交互效率。',
+    formula: 'plan ↔ act ↔ observe',
+  },
+  {
     id: 'evaluation',
     label: 'Evaluation',
     zh: '评测与规模化',

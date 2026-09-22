@@ -1,0 +1,17 @@
+[
+  {
+    "id": "upenn-cis-6270-fall-2026",
+    "type": "course",
+    "title": "CIS 6270: Discrete Generative Models",
+    "institution": "University of Pennsylvania",
+    "instructors": ["Pranam Chatterjee"],
+    "term": "Fall 2026",
+    "url": "https://cis6270.github.io/",
+    "codeUrl": "https://huggingface.co/ChatterjeeLab/CIS6270",
+    "level": "Graduate · Math-first",
+    "descriptionZh": "以离散状态建模为核心的研究生课程，从概率输运、ODE/SDE 与连续扩散和 flow 出发，系统讲授离散扩散、离散 Flow Matching、引导、一步与少步 Flow Maps、最优输运、随机控制和 Schrödinger Bridges。",
+    "whyUsefulZh": "课程同时提供推导、代码、例题与前沿研究材料，适合在完成核心论文路径后建立更完整的数学框架。",
+    "topics": ["Discrete Diffusion", "Discrete Flow Matching", "Flow Maps", "Schrödinger Bridges"],
+    "lastVerified": "2026-09-22"
+  }
+]

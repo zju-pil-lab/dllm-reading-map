@@ -11,7 +11,7 @@ const socialImageUrl = new URL('og.png', siteUrl);
 export const metadata: Metadata = {
   metadataBase: siteUrl,
   title: 'dLLM Reading Map · 扩散语言模型阅读地图',
-  description: '105 篇扩散语言模型论文：12 篇必读路径、方法分类、智能体方向、时间筛选与持续更新。',
+  description: '106 篇扩散语言模型论文与精选课程资源：12 篇必读路径、方法分类、智能体方向、时间筛选与持续更新。',
   alternates: { canonical: canonicalUrl },
   icons: { icon: iconUrl },
   openGraph: {
@@ -19,14 +19,14 @@ export const metadata: Metadata = {
     locale: 'zh_CN',
     url: siteUrl,
     title: 'dLLM Reading Map · 扩散语言模型阅读地图',
-    description: '从 Mask 到 Flow：为学生与研究者整理的开放阅读地图。',
+    description: '从 Mask 到 Flow：为学生与研究者整理的论文与课程开放阅读地图。',
     siteName: 'dLLM Reading Map',
     images: [{ url: socialImageUrl, width: 1200, height: 630, alt: 'dLLM Reading Map — From Mask to Flow' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'dLLM Reading Map · 扩散语言模型阅读地图',
-    description: '从 Mask 到 Flow：为学生与研究者整理的开放阅读地图。',
+    description: '从 Mask 到 Flow：为学生与研究者整理的论文与课程开放阅读地图。',
     images: [socialImageUrl],
   },
 };

@@ -5,6 +5,7 @@ const readJson = async (path) => JSON.parse(await readFile(new URL(path, root), 
 
 const sander = await readJson('data/sander-2026.json');
 const extras = await readJson('data/curated-extras.json');
+const resources = await readJson('data/resources.json');
 const papers = [...sander, ...extras];
 
 const allowedCategories = new Set([
@@ -56,10 +57,36 @@ for (const paper of essential) {
   if (!paper.whyReadZh) errors.push(`${paper.id}: essential paper needs whyReadZh.`);
 }
 
+const resourceRequired = [
+  'id', 'type', 'title', 'institution', 'instructors', 'term', 'url', 'level',
+  'descriptionZh', 'whyUsefulZh', 'topics', 'lastVerified',
+];
+const seenResourceIds = new Set();
+const seenResourceUrls = new Set();
+
+for (const [index, resource] of resources.entries()) {
+  const label = resource.id || `resource ${index + 1}`;
+  for (const field of resourceRequired) {
+    if (resource[field] === undefined || resource[field] === null || resource[field] === '') {
+      errors.push(`${label}: missing ${field}.`);
+    }
+  }
+  if (resource.type !== 'course') errors.push(`${label}: unsupported resource type ${resource.type}.`);
+  if (!Array.isArray(resource.instructors) || resource.instructors.length === 0) errors.push(`${label}: instructors must be a non-empty array.`);
+  if (!Array.isArray(resource.topics) || resource.topics.length === 0) errors.push(`${label}: topics must be a non-empty array.`);
+  if (!/^https:\/\//.test(resource.url)) errors.push(`${label}: URL must use HTTPS.`);
+  if (resource.codeUrl && !/^https:\/\//.test(resource.codeUrl)) errors.push(`${label}: code URL must use HTTPS.`);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(resource.lastVerified)) errors.push(`${label}: invalid verification date ${resource.lastVerified}.`);
+  if (seenResourceIds.has(resource.id)) errors.push(`${label}: duplicate resource id.`);
+  if (seenResourceUrls.has(resource.url)) errors.push(`${label}: duplicate resource URL.`);
+  seenResourceIds.add(resource.id);
+  seenResourceUrls.add(resource.url);
+}
+
 if (errors.length) {
   console.error(`Data validation failed with ${errors.length} error(s):`);
   for (const error of errors) console.error(`- ${error}`);
   process.exit(1);
 }
 
-console.log(`Validated ${papers.length} unique papers (${sander.length} from Sander 2026; ${essential.length} essential).`);
+console.log(`Validated ${papers.length} unique papers (${sander.length} from Sander 2026; ${essential.length} essential) and ${resources.length} learning resource(s).`);

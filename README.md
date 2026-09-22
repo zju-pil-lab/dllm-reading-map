@@ -6,7 +6,7 @@
 
 ![dLLM Reading Map](public/og.png)
 
-项目以“方法类别与研究方向”为主线、以时间为排序和筛选维度，避免把快速增长的领域压成一份难以使用的超长清单。当前完整收录 Sander Dieleman 2026 年文章 *Continuous diffusion language models* 的 81 条参考文献，并补充 24 篇离散扩散、大模型化、AR 转换、智能体与 2026 年最新工作，共 105 篇。
+项目以“方法类别与研究方向”为主线、以时间为排序和筛选维度，避免把快速增长的领域压成一份难以使用的超长清单。当前完整收录 Sander Dieleman 2026 年文章 *Continuous diffusion language models* 的 81 条参考文献，并补充 25 篇离散扩散、大模型化、AR 转换、智能体与 2026 年最新工作，共 106 篇。课程与学习资源单独维护，不计入论文数量。
 
 ## 设计原则
 
@@ -38,6 +38,7 @@ npm run build
 
 - `data/sander-2026.json`：博客 81 条完整参考文献，保留 `sourceIndex`。
 - `data/curated-extras.json`：独立核对的一手论文元数据与前沿补充。
+- `data/resources.json`：公开课程与学习资源；首条收录 Penn CIS 6270: Discrete Generative Models。
 - `scripts/import_sander_refs.py`：从文章 HTML 可复现地生成首批数据。
 - `scripts/validate-data.mjs`：检查 schema、重复 ID、标题、类别和阅读路径。
 

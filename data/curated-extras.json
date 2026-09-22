@@ -382,5 +382,21 @@
     "whyReadZh": "从延迟、能耗、带宽和可靠性出发梳理 dLLM 在移动边缘智能体中的系统机会与开放问题。",
     "sourceCollections": ["curated-2026"],
     "lastVerified": "2026-09-12"
+  },
+  {
+    "id": "arxiv:2609.20539",
+    "title": "Parallelism, critical windows, and separations among diffusion language models",
+    "authors": ["Sitan Chen", "Liye Wang"],
+    "year": 2026,
+    "published": "2026-09-17",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2609.20539",
+    "category": "evaluation",
+    "tags": ["theory", "parallelism", "masked-diffusion", "uniform-diffusion", "Gaussian-diffusion", "critical-windows"],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": "首次对 masked、uniform 与 Gaussian 三类 dLLM 的并行采样能力给出细粒度理论比较，并证明不同范式之间可出现可证分离。",
+    "sourceCollections": ["curated-2026"],
+    "lastVerified": "2026-09-22"
   }
 ]

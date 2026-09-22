@@ -7,6 +7,7 @@ import {
   latestPapers,
   papers,
 } from '@/lib/papers';
+import { resources } from '@/lib/resources';
 
 const coreCategoryIds = ['discrete', 'continuous', 'hybrid', 'flow', 'latent', 'systems', 'agents'];
 
@@ -24,6 +25,7 @@ export default function Home() {
           <a href="#start">从这里开始</a>
           <a href="#map">方法地图</a>
           <a href="#library">论文库</a>
+          <a href="#resources">课程资源</a>
           <a href="#updates">如何更新</a>
         </div>
         <a
@@ -70,7 +72,7 @@ export default function Home() {
         <div><strong>{papers.length}</strong><span>篇精选论文<br />单一数据源</span></div>
         <div><strong>81/81</strong><span>Sander 博客<br />参考文献已收录</span></div>
         <div><strong>{categories.length}</strong><span>研究方向<br />交叉索引</span></div>
-        <div className="stats-note"><span className="status-dot" />VERIFIED<br />2026.09.12</div>
+        <div className="stats-note"><span className="status-dot" />VERIFIED<br />2026.09.22</div>
       </section>
 
       <section className="section path-section" id="start">
@@ -158,6 +160,41 @@ export default function Home() {
         <PaperExplorer papers={papers} />
       </section>
 
+      <section className="learning-section" id="resources">
+        <div className="learning-heading">
+          <div>
+            <p className="eyebrow"><span /> COURSES & LEARNING</p>
+            <h2>课程与<br />学习资源</h2>
+          </div>
+          <p>课程与论文分开收录。优先选择提供公开教学大纲、讲义或代码，并能系统连接扩散语言模型理论与实践的学习资源。</p>
+        </div>
+
+        <div className="learning-list">
+          {resources.map((resource, index) => (
+            <article className="learning-card" key={resource.id}>
+              <div className="learning-index">
+                <span>{String(index + 1).padStart(2, '0')}</span>
+                <b>{resource.type}</b>
+              </div>
+              <div className="learning-main">
+                <p className="learning-meta">{resource.institution} · {resource.term} · {resource.level}</p>
+                <h3><a href={resource.url} target="_blank" rel="noreferrer">{resource.title}</a></h3>
+                <p className="learning-instructor">Instructor · {resource.instructors.join(', ')}</p>
+                <p className="learning-description">{resource.descriptionZh}</p>
+                <p className="learning-why"><span>为什么推荐</span>{resource.whyUsefulZh}</p>
+                <div className="learning-topics">
+                  {resource.topics.map((topic) => <span key={topic}>{topic}</span>)}
+                </div>
+              </div>
+              <div className="learning-links">
+                <a href={resource.url} target="_blank" rel="noreferrer">课程主页 <span>↗</span></a>
+                {resource.codeUrl && <a href={resource.codeUrl} target="_blank" rel="noreferrer">课程代码 <span>↗</span></a>}
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+
       <section className="update-section" id="updates">
         <div className="update-lead">
           <p className="eyebrow"><span /> LIVING COLLECTION</p>
@@ -193,7 +230,7 @@ export default function Home() {
         <p>OPEN, CURATED, BUILT FOR LEARNING.</p>
         <p>
           <a href="https://github.com/zju-pil-lab/dllm-reading-map" target="_blank" rel="noreferrer">GITHUB ↗</a>
-          {' · '}LAST VERIFIED · 2026.09.12
+          {' · '}LAST VERIFIED · 2026.09.22
         </p>
       </footer>
     </main>

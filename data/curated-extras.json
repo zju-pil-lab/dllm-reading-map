@@ -560,5 +560,38 @@
     "whyReadZh": "用多尺度残差 VQ-VAE 将文本编码为层级离散潜变量，再由 Transformer 逐层生成、层内并行预测。它并非扩散去噪，而是潜空间语言生成的重要对照路线，适合比较表示压缩、顺序生成深度与每步计算成本对质量和速度的影响。",
     "sourceCollections": ["curated-2026"],
     "lastVerified": "2026-10-18"
+  },
+  {
+    "id": "arxiv:2610.28559",
+    "title": "Large Flow Language Models",
+    "authors": ["Arnav Chavan", "Chanhyuk Lee", "Udbhav Bamba", "Jaehoon Yoo", "Seunghoon Hong", "Aditi Raghunathan", "Jinwoo Kim"],
+    "year": 2026,
+    "published": "2026-10-20",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2610.28559",
+    "codeUrl": "https://github.com/lafa-gh/large-flow-lms",
+    "category": "continuous",
+    "tags": ["Lafa", "continuous-flow", "blockwise-generation", "AR-adaptation", "asynchronous-flow", "flow-maps", "self-speculative-decoding", "8B"],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": "将预训练 AR 模型适配为块内异步连续流，在保留前缀因果预测与缓存能力的同时实现并行生成，并支持少步 flow map 蒸馏和单模型自推测解码。它将连续 flow 语言建模扩展到 7B/8B，适合与 Sigma 对照阅读，比较训练预算、质量与吞吐量的取舍。",
+    "sourceCollections": ["curated-2026"],
+    "lastVerified": "2026-10-28"
+  },
+  {
+    "id": "arxiv:2610.31305",
+    "title": "Cola2: Co-Adaptive Hierarchical Language Modeling with Continuous Semantic Compression and Balanced Discrete Generation",
+    "authors": ["Hongcan Guo", "Yian Zhao", "Feng Wang", "Shen Nie", "Guoqiang Wei", "Yan Zeng", "Hengshuang Zhao"],
+    "year": 2026,
+    "published": "2026-10-22",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2610.31305",
+    "category": "latent",
+    "tags": ["Cola2", "continuous-latents", "hierarchical-generation", "semantic-compression", "flow-matching", "masked-diffusion-decoder", "co-adaptation", "classifier-free-guidance"],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": "用动态语义分段压缩文本，由连续 Flow Matching 先验生成语义潜变量，再由块因果 masked diffusion 解码器实现文本。通过 token 预测梯度协同学习编码器与解码器，同时以 stop-gradient 隔离先验拟合，并在推理时重编码生成文本，为研究语义压缩、连续与离散协同适配及上下文一致性提供对照。",
+    "sourceCollections": ["curated-2026"],
+    "lastVerified": "2026-10-28"
   }
 ]

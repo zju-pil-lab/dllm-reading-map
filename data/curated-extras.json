@@ -560,5 +560,21 @@
     "whyReadZh": "用多尺度残差 VQ-VAE 将文本编码为层级离散潜变量，再由 Transformer 逐层生成、层内并行预测。它并非扩散去噪，而是潜空间语言生成的重要对照路线，适合比较表示压缩、顺序生成深度与每步计算成本对质量和速度的影响。",
     "sourceCollections": ["curated-2026"],
     "lastVerified": "2026-10-18"
+  },
+  {
+    "id": "arxiv:2610.40325",
+    "title": "How to Loop Your Transformer: Loop Scaling, Specialization, and Parallel Inference",
+    "authors": ["Chanakya Ekbote", "Artidoro Pagnoni", "Devendra Singh Sachan", "Shruti Bhosale", "Mike Lewis", "Maryam Fazel-Zarandi", "Shashank Rajput", "Sujan Kumar Gonugondla"],
+    "year": 2026,
+    "published": "2026-10-29",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2610.40325",
+    "category": "systems",
+    "tags": ["looped-transformer 循环架构", "weight-sharing 参数共享", "loop-specific LoRA", "Parallel Loop Transformer (PLT)", "cross-loop parallelism", "compute-quality trade-off", "autoregressive-background"],
+    "tier": "context",
+    "essentialOrder": null,
+    "whyReadZh": "研究自回归 Transformer 的循环位置、逐轮低秩适配器与跨循环并行，比较参数量、训练计算和解码效率之间的取舍。文中的并行化发生在循环阶段，生成仍为自回归；可作为研究 dLLM 参数共享、迭代计算与效率评测的架构背景，论文未验证这些设计在扩散模型中的效果。",
+    "sourceCollections": ["curated-2026", "arxiv-primary"],
+    "lastVerified": "2026-11-02"
   }
 ]

@@ -593,5 +593,22 @@
     "whyReadZh": "将 CoBit 的连续比特流扩散用于图文、语音—文本和蛋白质序列—结构建模。各领域分别训练模型，在每个模态组合内共享去噪器与预测头，通过保留观测比特实现联合生成和训练所覆盖的条件生成，适合研究连续语言扩散向多模态统一表示与生成的扩展。",
     "sourceCollections": ["curated-2026", "arxiv-primary"],
     "lastVerified": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2604.26841",
+    "title": "Language Diffusion Models are Associative Memories Capable of Retrieving Unseen Data",
+    "authors": ["Bao Pham", "Mohammed J. Zaki", "Luca Ambrogioni", "Dmitry Krotov", "Matteo Negri"],
+    "year": 2026,
+    "published": "2026-04-29",
+    "venue": "EMNLP 2026",
+    "url": "https://arxiv.org/abs/2604.26841",
+    "codeUrl": "https://github.com/Lemon-cmd/Associative-Memory-and-Language-Diffusion",
+    "category": "evaluation",
+    "tags": ["associative memory 联想记忆", "memorization and generalization 记忆与泛化", "uniform-state discrete diffusion (UDDM)", "attractor basins 吸引域", "conditional entropy 条件熵", "token recovery", "dataset scaling"],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": "从联想记忆视角分析均匀状态离散扩散模型，以训练与测试序列的 token 恢复率和条件熵刻画随数据规模变化的记忆—泛化转变。适合与连续扩散的联想记忆研究对照，理解吸引域、未见序列恢复与生成能力之间的关系，并为 dLLM 的泛化评测提供可复现的指标。",
+    "sourceCollections": ["curated-2026", "arxiv-primary"],
+    "lastVerified": "2026-11-04"
   }
 ]

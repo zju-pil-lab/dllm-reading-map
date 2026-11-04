@@ -38,7 +38,7 @@ npm run build
 
 - `data/sander-2026.json`：博客 81 条完整参考文献，保留 `sourceIndex`。
 - `data/curated-extras.json`：独立核对的一手论文元数据与前沿补充。
-- `data/resources.json`：公开课程与学习资源，包括 Penn CIS 6270、Flow Maps 与 Discrete Beckmann Transport 长文，以及 Alex Wang 的 Transformer 联想记忆背景阅读。
+- `data/resources.json`：公开课程与学习资源，包括 Penn CIS 6270、Flow Maps 与 Discrete Beckmann Transport 长文、Alex Wang 的 Transformer 联想记忆背景阅读，以及 Cartesia 的 From Tokens to Bytes 两篇系列博客（字节建模、层级表示与分词评测背景）。
 - `scripts/import_sander_refs.py`：从文章 HTML 可复现地生成首批数据。
 - `scripts/validate-data.mjs`：检查 schema、重复 ID、标题、类别和阅读路径。
 

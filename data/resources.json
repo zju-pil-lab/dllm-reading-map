@@ -60,5 +60,35 @@
     "tags": ["Associative Memory", "Transformer", "Self-Attention", "MLP", "Memory Capacity"],
     "featured": false,
     "lastVerified": "2026-10-18"
+  },
+  {
+    "id": "cartesia-tokens-to-bytes-part-1-2026",
+    "type": "blog",
+    "title": "From Tokens to Bytes I: Scaling Hierarchical Networks",
+    "creators": ["Cartesia Research"],
+    "source": "Cartesia · From Tokens to Bytes 系列（上）",
+    "year": 2026,
+    "url": "https://www.cartesia.ai/blog/from-tokens-to-bytes-part-1",
+    "level": "架构背景 · 字节建模与层级表示",
+    "descriptionZh": "介绍 H-Net 如何从原始字节中学习动态分块与多层抽象，并通过受控的 BPE 对照、规模化实验和交互图分析计算效率及上下文相关的分块行为。",
+    "whyUsefulZh": "适合为 dLLM 的表示压缩与层级设计建立背景。可与 CoBit 对照：H-Net 从字节中学习分块，CoBit 则将已有 token 编码为比特流；两者改变语言表示的方式不同。建议先读本篇，再读下篇的分词与评测分析。",
+    "tags": ["H-Net", "Byte-Level Modeling", "Dynamic Chunking", "Hierarchical Representations", "Scaling Laws"],
+    "featured": false,
+    "lastVerified": "2026-11-04"
+  },
+  {
+    "id": "cartesia-tokens-to-bytes-part-2-2026",
+    "type": "blog",
+    "title": "From Tokens to Bytes II: Learning from Raw Data",
+    "creators": ["Cartesia Research"],
+    "source": "Cartesia · From Tokens to Bytes 系列（下）",
+    "year": 2026,
+    "url": "https://www.cartesia.ai/blog/from-tokens-to-bytes-part-2",
+    "level": "评测背景 · 分词与泛化",
+    "descriptionZh": "比较字节 Transformer、不同预分词设置的 BPE、H-Net 与 BLT-like 模型，分别分析计算量到预训练损失、预训练损失到下游表现的关系，并解释提示边界与分词边缘化如何影响评测。",
+    "whyUsefulZh": "适合在上篇之后阅读，为比较 token、byte 和压缩表示的 dLLM 提供实验设计思路：统一数据、计算预算与字节归一化指标，同时区分预训练效率和下游迁移表现。文中的证据来自自回归预训练实验。",
+    "tags": ["Tokenization", "Pretokenization", "Loss-to-Loss Scaling", "Bits per Byte", "Prompt Boundary", "H-Net"],
+    "featured": false,
+    "lastVerified": "2026-11-04"
   }
 ]

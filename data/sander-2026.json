@@ -1750,26 +1750,34 @@
     "sourceIndex": 59,
     "title": "CoBit: Language Modeling with Bitstream Diffusion",
     "authors": [
-      "Batzolis",
-      "Girolami",
-      "Ambrogioni"
+      "Georgios Batzolis",
+      "Mark Girolami",
+      "Luca Ambrogioni"
     ],
     "year": 2026,
-    "published": "2026",
+    "published": "2026-05-07",
     "venue": "arXiv",
     "url": "https://arxiv.org/abs/2605.07013",
+    "codeUrl": "https://github.com/GBATZOLIS/BitstreamDiffusion",
     "category": "continuous",
     "tags": [
-      "continuous",
-      "bitstream"
+      "CoBit",
+      "continuous diffusion 连续扩散",
+      "bitstream 比特流",
+      "analog bits",
+      "matched-filter residual",
+      "entropy-rate scheduling",
+      "stochastic sampling",
+      "vocabulary scaling"
     ],
     "tier": "frontier",
     "essentialOrder": null,
-    "whyReadZh": null,
+    "whyReadZh": "将 token 编码为固定宽度比特流，在连续高斯扩散中结合解析单比特后验、上下文残差与熵率驱动的随机采样。适合与 Analog Bits、LangFlow 和 ELF 对照，研究表示维度、采样随机性及生成质量与多样性的权衡，并作为多模态 CoBit 的方法基础。",
     "sourceCollections": [
-      "sander-2026"
+      "sander-2026",
+      "arxiv-primary"
     ],
-    "lastVerified": "2026-09-04"
+    "lastVerified": "2026-11-04"
   },
   {
     "id": "arxiv:2605.07820",

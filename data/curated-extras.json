@@ -576,5 +576,22 @@
     "whyReadZh": "研究自回归 Transformer 的循环位置、逐轮低秩适配器与跨循环并行，比较参数量、训练计算和解码效率之间的取舍。文中的并行化发生在循环阶段，生成仍为自回归；可作为研究 dLLM 参数共享、迭代计算与效率评测的架构背景，论文未验证这些设计在扩散模型中的效果。",
     "sourceCollections": ["curated-2026", "arxiv-primary"],
     "lastVerified": "2026-11-02"
+  },
+  {
+    "id": "arxiv:2610.14349",
+    "title": "Multimodal Co-Generation With Continuous Bitstream Diffusion",
+    "authors": ["Georgios Batzolis", "Georgios Kontos", "Bruno Trentini", "Pranam Chatterjee", "Micha Livne", "Mark Girolami", "Luca Ambrogioni"],
+    "year": 2026,
+    "published": "2026-10-09",
+    "venue": "arXiv",
+    "url": "https://arxiv.org/abs/2610.14349",
+    "codeUrl": "https://github.com/GBATZOLIS/BitstreamDiffusion",
+    "category": "multimodal",
+    "tags": ["CoBit", "continuous bitstream diffusion 连续比特流扩散", "multimodal co-generation 多模态联合生成", "partial denoising", "image-text", "speech-text", "protein sequence-structure"],
+    "tier": "frontier",
+    "essentialOrder": null,
+    "whyReadZh": "将 CoBit 的连续比特流扩散用于图文、语音—文本和蛋白质序列—结构建模。各领域分别训练模型，在每个模态组合内共享去噪器与预测头，通过保留观测比特实现联合生成和训练所覆盖的条件生成，适合研究连续语言扩散向多模态统一表示与生成的扩展。",
+    "sourceCollections": ["curated-2026", "arxiv-primary"],
+    "lastVerified": "2026-11-04"
   }
 ]

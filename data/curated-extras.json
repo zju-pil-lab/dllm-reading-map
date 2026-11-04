@@ -610,5 +610,22 @@
     "whyReadZh": "从联想记忆视角分析均匀状态离散扩散模型，以训练与测试序列的 token 恢复率和条件熵刻画随数据规模变化的记忆—泛化转变。适合与连续扩散的联想记忆研究对照，理解吸引域、未见序列恢复与生成能力之间的关系，并为 dLLM 的泛化评测提供可复现的指标。",
     "sourceCollections": ["curated-2026", "arxiv-primary"],
     "lastVerified": "2026-11-04"
+  },
+  {
+    "id": "arxiv:2508.13021",
+    "title": "Empirical Analysis of Decoding Biases in Masked Diffusion Models",
+    "authors": ["Pengcheng Huang", "Tianming Liu", "Zhenghao Liu", "Yukun Yan", "Shuo Wang", "Tong Xiao", "Zulong Chen", "Maosong Sun"],
+    "year": 2026,
+    "published": "2025-08-18",
+    "venue": "ACL 2026",
+    "url": "https://arxiv.org/abs/2508.13021",
+    "codeUrl": "https://github.com/NEUIR/Uncode",
+    "category": "discrete",
+    "tags": ["discrete", "masked", "decoding 解码", "decoding bias 解码偏差", "unmasking order 揭示顺序", "training-free", "reasoning"],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": "系统分析 masked diffusion 模型中基于不确定性的解码策略带来的两类偏差：刚性边界偏差（rigid boundary bias）与平凡 token 偏差（trivial token bias），并提出无需训练的 UNCODE 解码校准，用位置轨迹先验与内容信息量先验约束揭示顺序。在 3 个 MDM、7 个推理与规划基准上比现有解码策略高出 7% 以上，且可接入快速采样器并保留其 2–4× 加速，适合理解 dLLM 的解码顺序为何影响推理质量。",
+    "sourceCollections": ["curated-2026", "arxiv-primary"],
+    "lastVerified": "2026-11-05"
   }
 ]

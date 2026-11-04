@@ -62,6 +62,38 @@
     "lastVerified": "2026-10-18"
   },
   {
+    "id": "goombalab-hnet-past-2025",
+    "type": "blog",
+    "title": "H-Nets - the Past",
+    "creators": ["Goomba AI Lab"],
+    "source": "Goomba Lab · H-Nets 系列（上）",
+    "year": 2025,
+    "url": "https://goombalab.github.io/blog/2025/hnet-past/",
+    "codeUrl": "https://github.com/goombalab/hnet",
+    "level": "架构背景 · 动态分块的研究脉络",
+    "descriptionZh": "回顾从层级 RNN、S4 与 SaShiMi 到 H-Net 的研究过程，解释固定宽度压缩用于语言时遇到的问题，以及信息量启发式、可微离散选择和端到端动态分块之间的联系。",
+    "whyUsefulZh": "适合在阅读 H-Net 技术细节前理解其问题来源，为 dLLM 的表示压缩、层级建模与计算分配提供背景。建议按 Past、Future、Cartesia From Tokens to Bytes 的顺序阅读。",
+    "tags": ["H-Net", "Dynamic Chunking", "Hierarchical Sequence Models", "State Space Models", "Differentiable Selection"],
+    "featured": false,
+    "lastVerified": "2026-11-04"
+  },
+  {
+    "id": "goombalab-hnet-future-2025",
+    "type": "blog",
+    "title": "H-Nets - the Future",
+    "creators": ["Goomba AI Lab"],
+    "source": "Goomba Lab · H-Nets 系列（下）",
+    "year": 2025,
+    "url": "https://goombalab.github.io/blog/2025/hnet-future/",
+    "codeUrl": "https://github.com/goombalab/hnet",
+    "level": "研究展望 · 层级建模与推理效率",
+    "descriptionZh": "围绕动态分块提出多模态时间对齐、语言推理、长上下文与混合架构的研究设想，并讨论 H-Net 与 speculative decoding 的结构联系及训练、推理中的工程挑战。",
+    "whyUsefulZh": "适合为层级 dLLM 和多模态生成整理研究问题，区分理论计算量与实际运行效率。文中的多项判断是作者提出的假设，可与后续 Cartesia 系列中的规模化证据对照阅读。",
+    "tags": ["H-Net", "Multimodal Alignment", "Speculative Decoding", "Long Context", "Efficiency", "Research Directions"],
+    "featured": false,
+    "lastVerified": "2026-11-04"
+  },
+  {
     "id": "cartesia-tokens-to-bytes-part-1-2026",
     "type": "blog",
     "title": "From Tokens to Bytes I: Scaling Hierarchical Networks",

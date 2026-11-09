@@ -610,5 +610,22 @@
     "whyReadZh": "从联想记忆视角分析均匀状态离散扩散模型，以训练与测试序列的 token 恢复率和条件熵刻画随数据规模变化的记忆—泛化转变。适合与连续扩散的联想记忆研究对照，理解吸引域、未见序列恢复与生成能力之间的关系，并为 dLLM 的泛化评测提供可复现的指标。",
     "sourceCollections": ["curated-2026", "arxiv-primary"],
     "lastVerified": "2026-11-04"
+  },
+  {
+    "id": "alphaxiv:2611.continuous-diffusion-flow-language-models",
+    "title": "A Survey on Continuous Diffusion and Flow Language Models",
+    "authors": ["Sophia Tang", "Chanhyuk Lee", "Floor Eijkelboom", "Jinwoo Kim"],
+    "year": 2026,
+    "published": "2026-11-08",
+    "venue": "alphaXiv",
+    "url": "https://www.alphaxiv.org/abs/2611.continuous-diffusion-flow-language-models",
+    "projectUrl": "https://continuous-lm.github.io/",
+    "category": "surveys",
+    "tags": ["survey 综述", "continuous diffusion and flow language models 连续扩散与流语言模型", "language representations 语言表示", "few-step generation 少步生成", "flow maps 流映射", "guidance and control 引导与控制", "scaling and evaluation 规模化与评测"],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": "以连续语言表示、训练目标和推理策略为主线，系统梳理连续扩散与流语言模型，并连接少步生成、流映射、蒸馏和可微引导。适合作为连续 dLLM 方向的综述入口，对照理解并行解码中的依赖建模、规模化进展与评测问题；项目主页另提供交互式研究地图和分类文献列表。",
+    "sourceCollections": ["curated-2026", "alphaxiv-primary"],
+    "lastVerified": "2026-11-10"
   }
 ]

@@ -46,6 +46,7 @@ for (const [index, paper] of papers.entries()) {
   if (!allowedTiers.has(paper.tier)) errors.push(`${label}: unknown tier ${paper.tier}.`);
   if (!/^https:\/\//.test(paper.url)) errors.push(`${label}: URL must use HTTPS.`);
   if (paper.codeUrl && !/^https:\/\//.test(paper.codeUrl)) errors.push(`${label}: code URL must use HTTPS.`);
+  if (paper.projectUrl && !/^https:\/\//.test(paper.projectUrl)) errors.push(`${label}: project URL must use HTTPS.`);
   if (!/^\d{4}(?:-\d{2}-\d{2})?$/.test(paper.published)) errors.push(`${label}: invalid published date ${paper.published}.`);
 
   if (seenIds.has(paper.id)) errors.push(`${label}: duplicate id (also record ${seenIds.get(paper.id)}).`);

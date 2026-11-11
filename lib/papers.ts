@@ -14,6 +14,7 @@ export type Paper = {
   venue: string;
   url: string;
   codeUrl?: string;
+  projectUrl?: string;
   category: string;
   tags: string[];
   tier: PaperTier;

@@ -612,6 +612,23 @@
     "lastVerified": "2026-11-04"
   },
   {
+    "id": "alphaxiv:2611.continuous-diffusion-flow-language-models",
+    "title": "A Survey on Continuous Diffusion and Flow Language Models",
+    "authors": ["Sophia Tang", "Chanhyuk Lee", "Floor Eijkelboom", "Jinwoo Kim"],
+    "year": 2026,
+    "published": "2026-11-08",
+    "venue": "alphaXiv",
+    "url": "https://www.alphaxiv.org/abs/2611.continuous-diffusion-flow-language-models",
+    "projectUrl": "https://continuous-lm.github.io/",
+    "category": "surveys",
+    "tags": ["survey 综述", "continuous diffusion and flow language models 连续扩散与流语言模型", "language representations 语言表示", "few-step generation 少步生成", "flow maps 流映射", "guidance and control 引导与控制", "scaling and evaluation 规模化与评测"],
+    "tier": "recommended",
+    "essentialOrder": null,
+    "whyReadZh": "以连续语言表示、训练目标和推理策略为主线，系统梳理连续扩散与流语言模型，并连接少步生成、流映射、蒸馏和可微引导。适合作为连续 dLLM 方向的综述入口，对照理解并行解码中的依赖建模、规模化进展与评测问题；项目主页另提供交互式研究地图和分类文献列表。",
+    "sourceCollections": ["curated-2026", "alphaxiv-primary"],
+    "lastVerified": "2026-11-10"
+  },
+  {
     "id": "arxiv:2508.13021",
     "title": "Empirical Analysis of Decoding Biases in Masked Diffusion Models",
     "authors": ["Pengcheng Huang", "Tianming Liu", "Zhenghao Liu", "Yukun Yan", "Shuo Wang", "Tong Xiao", "Zulong Chen", "Maosong Sun"],
